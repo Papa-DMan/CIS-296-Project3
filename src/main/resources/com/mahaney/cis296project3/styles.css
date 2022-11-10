@@ -1,12 +1,27 @@
-numbers {
-    fx-background-color: #48413f;
-    fx-text-fill: #e8e6e6;
-    fx-padding: 5;
+#numbers {
+    -fx-background-radius: 0;
+    -fx-background-color: #48413f;
+    -fx-text-fill: #e8e6e6;
+    -fx-padding: 5;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
 }
 
 
-opperands {
-    fx-background-color: #FD8D0E;
-    fx-text-fill: #e8e6e6;
-    fx-padding: 5;
+#opperands {
+    -fx-background-radius: 0;
+    -fx-background-color: #FD8D0E;
+    -fx-text-fill: #e8e6e6;
+    -fx-padding: 5;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+.stackDisplay {
+    -fx-fill: #e8e6e6;
+    -fx-text-fill: #e8e6e6;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
 }

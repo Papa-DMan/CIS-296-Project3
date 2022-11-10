@@ -5,10 +5,15 @@ import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class HelloController {
     @FXML
-    private Label stackDisplay;
+    private Text stackDisplay;
 
     @FXML
     private void calcInputCallback(ActionEvent e) {
