@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mahaney.cis296project3.HelloController">
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mahaney.cis296project3.CalculatorGUIController">
    <Rectangle fill="#453f3d" height="75.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
    <Text id="stackDisplay" fx:id="stackDisplay" layoutX="10.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="stackDisplay" text="0" textAlignment="RIGHT" wrappingWidth="180.0" />
     <GridPane alignment="CENTER" hgap="0" layoutY="75.0" prefHeight="325.0" prefWidth="200" vgap="0">
@@ -28,10 +28,10 @@
         <Button id="opperands" fx:id="mult" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" stylesheets="@styles.css" text="x" GridPane.columnIndex="3" GridPane.rowIndex="1" />
         <Button id="opperands" fx:id="div" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#calcInputCallback" stylesheets="@styles.css" text="/" GridPane.columnIndex="3" />
         <Button id="opperands" fx:id="equal" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" stylesheets="@styles.css" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-        <Button id="numbers" fx:id="openParenth" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" styleClass="numbers" stylesheets="@styles.css" text="(" GridPane.columnIndex="1" />
-        <Button id="numbers" fx:id="closeParenth" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" styleClass="numbers" stylesheets="@styles.css" text=")" GridPane.columnIndex="2" />
-        <Button id="numbers" fx:id="neg" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" styleClass="numbers" stylesheets="@styles.css" text="-" GridPane.rowIndex="4" />
-        <Button id="numbers" fx:id="space" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" styleClass="numbers" stylesheets="@styles.css" text="⎵" />
+        <Button id="numbers" fx:id="emptyButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" styleClass="numbers" stylesheets="@styles.css" GridPane.columnIndex="1" />
+        <Button id="numbers" fx:id="Clear" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" styleClass="numbers" stylesheets="@styles.css" text="C" GridPane.columnIndex="2" />
+        <Button id="numbers" fx:id="emptyButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" styleClass="numbers" stylesheets="@styles.css" text="⎵" GridPane.rowIndex="4" />
+        <Button id="numbers" fx:id="neg" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="30.0" onAction="#calcInputCallback" styleClass="numbers" stylesheets="@styles.css" text="-" />
       <columnConstraints>
          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="30.0" prefWidth="30.0" />
          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="30.0" prefWidth="30.0" />

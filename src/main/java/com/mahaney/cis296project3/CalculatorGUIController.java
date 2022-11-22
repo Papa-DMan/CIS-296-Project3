@@ -4,14 +4,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class HelloController {
+public class CalculatorGUIController {
     @FXML
     private Text stackDisplay;
 
