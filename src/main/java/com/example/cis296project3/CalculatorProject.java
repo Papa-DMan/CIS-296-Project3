@@ -1,4 +1,4 @@
-package com.mahaney.cis296project3;
+package com.example.cis296project3;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

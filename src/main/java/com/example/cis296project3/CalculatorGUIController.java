@@ -1,4 +1,4 @@
-package com.mahaney.cis296project3;
+package com.example.cis296project3;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

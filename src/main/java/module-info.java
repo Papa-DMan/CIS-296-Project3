@@ -3,6 +3,6 @@ module com.mahaney.cis296project3 {
     requires javafx.fxml;
 
 
-    opens com.mahaney.cis296project3 to javafx.fxml;
-    exports com.mahaney.cis296project3;
+    opens com.example.cis296project3 to javafx.fxml;
+    exports com.example.cis296project3;
 }

@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mahaney.cis296project3.CalculatorGUIController">
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cis296project3.CalculatorGUIController">
    <Rectangle fill="#453f3d" height="75.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
    <Text id="stackDisplay" fx:id="stackDisplay" layoutX="10.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="stackDisplay" text="0" textAlignment="RIGHT" wrappingWidth="180.0" />
     <GridPane alignment="CENTER" hgap="0" layoutY="75.0" prefHeight="325.0" prefWidth="200" vgap="0">
